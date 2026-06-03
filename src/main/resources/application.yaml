@@ -1,3 +1,6 @@
 spring:
   application:
     name: springAI
+  data:
+    mongodb:
+      uri: mongodb://root:secret@localhost:27017/mydatabase?authSource=admin
