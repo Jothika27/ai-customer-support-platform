@@ -3,6 +3,7 @@ package com.jo.customer_support.model;
 import java.time.LocalDateTime;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.jo.customer_support.utility.TicketStatus;
@@ -24,5 +25,6 @@ public class Ticket {
    private String description;
    private TicketStatus status;
    private LocalDateTime  createdAt;
+   @LastModifiedDate
    private LocalDateTime  updatedAt;
 }
