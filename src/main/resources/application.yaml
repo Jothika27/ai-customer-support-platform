@@ -6,7 +6,7 @@ spring:
     mongodb:
       # uri: mongodb://root:secret@mongodb:27017/mydatabase?authSource=admin
       uri: mongodb://root:secret@localhost:27017/mydatabase?authSource=admin
-
+# http://localhost:8080/swagger-ui/index.html
   docker:
     compose:
       enabled: false

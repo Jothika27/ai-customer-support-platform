@@ -24,6 +24,7 @@ public class Ticket {
    private String title;    
    private String description;
    private TicketStatus status;
+   private String assignedAgent;
    private LocalDateTime  createdAt;
    @LastModifiedDate
    private LocalDateTime  updatedAt;
